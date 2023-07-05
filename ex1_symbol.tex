@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+
+\documentclass{article}
+\usepackage{amssymb} % For \dashrightarrow
+\usepackage{stackengine} % For \stackinset
+\usepackage{scalerel} % For \scaleobj
+
+
+
+
+% 定义新的命令 \circlebar
+
+\newcommand{\circlebar}{\mathrel{\ooalign{$\circ$\cr\hidewidth$\bar{}$\hidewidth}}}
+
+
+%\newcommand\bigodotdash{\mathrel{\stackinset{c}{}{c}{}{\scaleobj{1.5}{\odot}}{\dashrightarrow}}}
+
+
+
+\newcommand\bigodotdash{\mathrel{\makebox[0pt]{\text{\scalebox{1.5}{$\odot$}}}{\raisebox{0.25ex}{\rule{1em}{0.5pt}}}}}
+
+
+
+
+\begin{document}
+% 这是一个示例文档，演示了如何在LaTeX中创建新的符号。
+% 下面是一个使用新符号的例子：
+
+1
+\[ Y = F \circlebar X \]
+
+2
+
+\( Y = F \bigodotdash X \)
+
+3
+
+\(Y = F \bigodotdash X\)
+\end{document}
+
+
