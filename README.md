@@ -1,11 +1,10 @@
 # code_LaTeX
 code_LaTeX
 
-
 https://github.com/williampolicy/code_LaTeX.git
 
 
-很好，我会提供一个简单的LaTeX示例。在这个例子中，我们将创建一个简单的文档，并在其中定义和使用一个新的命令来生成你想要的符号。
+在这个例子中，我们将创建一个简单的文档，并在其中定义和使用一个新的命令来生成你想要的符号。
 
 首先，你需要确保你的Mac上已经安装了一个LaTeX发行版，比如MacTeX。
 
@@ -36,7 +35,6 @@ https://github.com/williampolicy/code_LaTeX.git
 ----
 
 
-
 \documentclass{article}
 \usepackage{amssymb} % For \dashrightarrow
 \usepackage{stackengine} % For \stackinset
@@ -49,5 +47,3 @@ https://github.com/williampolicy/code_LaTeX.git
 \( Y = F \bigodotdash X \)
 
 \end{document}
-
-
